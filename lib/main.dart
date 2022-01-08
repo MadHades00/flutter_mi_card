@@ -11,33 +11,19 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          child: Column(
             children: [
-              Container(
-                width: 100.0,
-                height: double.infinity,
-                color: Colors.red,
+              CircleAvatar(
+                radius: 50.0,
+                backgroundImage: AssetImage('images/panda.jfif'),
               ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Container(
-                    height: 100.0,
-                    width: 100.0,
-                    color: Colors.yellow,
-                  ),
-                  Container(
-                    height: 100.0,
-                    width: 100.0,
-                    color: Colors.green,
-                  ),
-                ],
-              ),
-              Container(
-                width: 100.0,
-                height: double.infinity,
-                color: Colors.blue,
+              Text(
+                'Nicolas Gauthé',
+                style: TextStyle(
+                  fontSize: 40.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ],
           ),
