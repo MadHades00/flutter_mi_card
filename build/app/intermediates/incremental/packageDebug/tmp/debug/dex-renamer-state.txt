@@ -1,4 +1,4 @@
-#Sat Jan 08 08:55:43 CET 2022
+#Sun Jan 09 08:57:51 CET 2022
 base.0=E\:\\Dev\\Projets\\mi_card_flutter\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
